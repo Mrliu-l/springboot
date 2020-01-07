@@ -16,7 +16,7 @@ public class FormatTemplate {
         this.formatProcessor = formatProcessor;
     }
 
-    public <T> String format(T obj){
+    public <T> String doFormat(T obj){
       return  formatProcessor.format(obj);
     }
 }

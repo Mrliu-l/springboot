@@ -6,8 +6,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="springboot" />
+        <module name="format-spring-boot-starter" />
         <module name="springboot-first" />
+        <module name="springboot-starter-demo" />
         <module name="springboot-web" />
       </profile>
     </annotationProcessing>
