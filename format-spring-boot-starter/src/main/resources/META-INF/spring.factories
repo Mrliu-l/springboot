@@ -1,0 +1,2 @@
+org.springframework.boot.autoconfigure.AutoConfigurationImportListener=\
+  com.assembly.autoconfiguration.TemplateAutoConfiguration
