@@ -1,5 +1,6 @@
 package com.assembly;
 
+import com.assembly.autoconfiguration.FormatProperties;
 import com.assembly.format.FormatProcessor;
 
 /**
@@ -12,11 +13,15 @@ public class FormatTemplate {
 
     private FormatProcessor formatProcessor;
 
-    public FormatTemplate(FormatProcessor formatProcessor){
+    private FormatProperties formatProperties;
+
+    public FormatTemplate(FormatProcessor formatProcessor, FormatProperties formatProperties){
         this.formatProcessor = formatProcessor;
+        this.formatProperties = formatProperties;
     }
 
     public <T> String doFormat(T obj){
-      return  formatProcessor.format(obj);
+        System.out.println(formatProperties.getInfo().toString());
+        return  formatProcessor.format(obj);
     }
 }
