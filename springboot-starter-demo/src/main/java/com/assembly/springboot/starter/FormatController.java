@@ -1,4 +1,4 @@
-package com.assembly.springbootstarterdemo;
+package com.assembly.springboot.starter;
 
 import com.assembly.FormatTemplate;
 import org.springframework.beans.factory.annotation.Autowired;

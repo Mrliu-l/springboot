@@ -1,4 +1,4 @@
-package com.assembly.springbootstarterdemo;
+package com.assembly.springboot.starter;
 
 /**
  * @ClassName User
